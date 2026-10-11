@@ -13,21 +13,21 @@ class AiWorkbench < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/eqms/ai-workbench/releases/download/v1.14.0/ai-workbench-aarch64-apple-darwin.tar.gz"
-      sha256 "67d5b4a4ce075db2feb26321eff2f5521b5fe8543c731b397d680f8642cffa16"
+      url "https://github.com/eqms/ai-workbench/releases/download/v1.14.1/ai-workbench-aarch64-apple-darwin.tar.gz"
+      sha256 "dc4666f8a3e60bf1e12dd8ff67bcc5b4fcc32ae8dcdc3e38643cf3c0d0742ecc"
     else
-      url "https://github.com/eqms/ai-workbench/releases/download/v1.14.0/ai-workbench-x86_64-apple-darwin.tar.gz"
-      sha256 "5ee95101ffbae834aef367c894a5c4babf734256a981872135388ed222984e4e"
+      url "https://github.com/eqms/ai-workbench/releases/download/v1.14.1/ai-workbench-x86_64-apple-darwin.tar.gz"
+      sha256 "db2942d7578c0a2aa3e03c09e767f7c1ae15b99e78b188d1a80a689c74001e09"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/eqms/ai-workbench/releases/download/v1.14.0/ai-workbench-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "41212ff92b57113fdf2e1581c6fcf8245f53d672391d159d19bd7ce08df48525"
+      url "https://github.com/eqms/ai-workbench/releases/download/v1.14.1/ai-workbench-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "357260a9cba536b71a0f9da93e3d26837060aa065c03d3bfc9c5c9f5bc8109a9"
     else
-      url "https://github.com/eqms/ai-workbench/releases/download/v1.14.0/ai-workbench-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "127e61c2da97a6c0aa19341625f375fa860c3642316a6a0249000d5572a3ee38"
+      url "https://github.com/eqms/ai-workbench/releases/download/v1.14.1/ai-workbench-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "217e2870cb172a1aa5a68552a89df359f42bc78d97ad63a423245a2e3d67e08f"
     end
   end
 
